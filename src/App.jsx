@@ -1,4 +1,4 @@
-import Starter from './useState/useState-array'
+import Starter from './useState/useState-object'
 
 function App() {
   return (
