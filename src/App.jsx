@@ -1,9 +1,11 @@
-import './App.css'
+import Starter from './useState/useState-array'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <h1>Our first vite project</h1>
+  return (
+    <div className="container">
+      <Starter />
+    </div>
+  )
 }
 
 export default App
