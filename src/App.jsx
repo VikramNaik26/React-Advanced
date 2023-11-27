@@ -1,4 +1,4 @@
-import Starter from './useState/useState-object'
+import Starter from './useState/useState-gotcha'
 
 function App() {
   return (
