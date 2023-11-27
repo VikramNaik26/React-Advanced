@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const UseEffectBasics = () => {
   const [value, setValue] = useState(0)
@@ -7,6 +7,11 @@ const UseEffectBasics = () => {
   }
 
   sayHello()
+  //  this sayhello function will be called every time when the component is rendered
+  useEffect(() => {
+    console.log('hello from useEffect')
+  }, [])
+  // to solve the above problem we use the useEffect
 
   return (
     <div>
