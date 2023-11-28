@@ -1,4 +1,4 @@
-import Starter from './conditional-rendering/multiple-return-fetch-data'
+import Starter from './conditional-rendering/short-circuit-example'
 
 function App() {
   return (
