@@ -1,9 +1,12 @@
-import Example from './project-structure/Example'
+// import Example from './project-structure/Example'
+
+import List from './leverage-javascript/List'
 
 function App() {
   return (
     <div className="container">
-      <Example />
+      {/* <Example /> */}
+      <List />
     </div>
   )
 }
