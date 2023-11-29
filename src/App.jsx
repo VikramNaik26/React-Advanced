@@ -1,4 +1,4 @@
-import Starter from './conditional-rendering/user-challenge'
+import Starter from './useEffect/cleanup-function'
 
 function App() {
   return (
