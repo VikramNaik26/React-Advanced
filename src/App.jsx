@@ -1,14 +1,14 @@
 // import Example from './project-structure/Example'
 // import List from './leverage-javascript/List'
 
-import ControlledInputs from './forms/controllrd-input'
+import UserChallenge from './forms/user-challenge'
 
 function App() {
   return (
     <div className="container">
       {/* <Example /> */}
       {/* <List /> */}
-      <ControlledInputs />
+      <UserChallenge />
     </div>
   )
 }
