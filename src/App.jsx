@@ -1,7 +1,8 @@
 // import Example from './project-structure/Example'
 // import List from './leverage-javascript/List'
 
-import ToggleExample from './custom-hools/toggle'
+import FetchData from "./custom-hools/fetch-data"
+
 
 // import OtherInputs from './forms/other-inputs'
 
@@ -10,7 +11,7 @@ function App() {
     <div className="container">
       {/* <Example /> */}
       {/* <List /> */}
-      <ToggleExample />
+      <FetchData/>
     </div>
   )
 }
