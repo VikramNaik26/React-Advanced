@@ -1,14 +1,15 @@
 // import Example from './project-structure/Example'
 // import List from './leverage-javascript/List'
 
-import MultipleInputs from './forms/multiple-input'
+// import OtherInputs from './forms/other-inputs'
+import FormData from './forms/form-data'
 
 function App() {
   return (
     <div className="container">
       {/* <Example /> */}
       {/* <List /> */}
-      <MultipleInputs />
+      <FormData />
     </div>
   )
 }
