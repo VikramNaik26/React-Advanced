@@ -2,6 +2,7 @@
 // import List from './leverage-javascript/List'
 
 import LowerState from './performance/hooks'
+import FetchData from './useEffect/fetch-data'
 
 // import OtherInputs from './forms/other-inputs'
 
@@ -12,7 +13,7 @@ function App() {
       {/* <Example /> */}
       {/* <List /> */}
       {/* <LowerStateChallenge /> */}
-      <LowerState />
+      <FetchData />
     </div>
     // <AppContext>
     //   <Navbar />
