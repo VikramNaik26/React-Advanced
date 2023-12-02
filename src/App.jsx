@@ -2,7 +2,7 @@
 // import List from './leverage-javascript/List'
 
 // import OtherInputs from './forms/other-inputs'
-import LowerState from './performance/lower-state'
+import LowerStateChallenge from './performance/lower-state-challenge'
 
 function App() {
   // const { name } = useGlobalContext()
@@ -10,7 +10,7 @@ function App() {
     <div className="container">
       {/* <Example /> */}
       {/* <List /> */}
-      <LowerState />
+      <LowerStateChallenge />
     </div>
     // <AppContext>
     //   <Navbar />
