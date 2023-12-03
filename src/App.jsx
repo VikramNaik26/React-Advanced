@@ -14,7 +14,7 @@ function App() {
       {/* <Example /> */}
       {/* <List /> */}
       {/* <LowerStateChallenge /> */}
-    <LatestReact/>
+      <LatestReact />
     </div>
     // <AppContext>
     //   <Navbar />
