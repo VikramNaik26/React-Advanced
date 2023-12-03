@@ -13,7 +13,7 @@ function App() {
       {/* <Example /> */}
       {/* <List /> */}
       {/* <LowerStateChallenge /> */}
-      <FetchData />
+      <LowerState />
     </div>
     // <AppContext>
     //   <Navbar />
