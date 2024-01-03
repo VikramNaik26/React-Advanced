@@ -4,6 +4,8 @@
 import LowerState from './performance/hooks'
 import LatestReact from './performance/react-18'
 import FetchData from './useEffect/fetch-data'
+import PropDrilling from './useState/propDrilling'
+import UseStateBasics from './useState/useState-basics'
 
 // import OtherInputs from './forms/other-inputs'
 
@@ -14,7 +16,11 @@ function App() {
       {/* <Example /> */}
       {/* <List /> */}
       {/* <LowerStateChallenge /> */}
-      <LatestReact />
+      {/* <LatestReact /> */}
+      {/* <UseStateBasics /> */}
+      <PropDrilling title={'Vikram'} />
+      <PropDrilling />
+      {/* if no props are passed defaultProps will be assigned */}
     </div>
     // <AppContext>
     //   <Navbar />
