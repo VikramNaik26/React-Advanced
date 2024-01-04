@@ -17,6 +17,7 @@ const FetchData = () => {
 
   useEffect(() => {
     getData()
+    // (async () => await getData())()
   }, [getData])
 
   return (
