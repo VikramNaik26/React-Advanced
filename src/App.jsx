@@ -3,6 +3,7 @@
 
 import LowerState from './performance/hooks'
 import LatestReact from './performance/react-18'
+import ColorChallenge from './projectChallenge/colorChallenge'
 import FetchData from './useEffect/fetch-data'
 import PropDrilling from './useState/propDrilling'
 import UseStateBasics from './useState/useState-basics'
@@ -18,9 +19,10 @@ function App() {
       {/* <LowerStateChallenge /> */}
       {/* <LatestReact /> */}
       {/* <UseStateBasics /> */}
-      <PropDrilling title={'Vikram'} />
-      <PropDrilling />
+      {/* <PropDrilling title={'Vikram'} />
+      <PropDrilling /> */}
       {/* if no props are passed defaultProps will be assigned */}
+      <ColorChallenge />
     </div>
     // <AppContext>
     //   <Navbar />
